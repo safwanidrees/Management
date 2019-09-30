@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgitemdoes"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp"
+    android:layout_height="100dp"
+    android:id="@+id/parentLayout">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        android:layout_width="230dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_marginTop="19dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000C5D"
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/pemail"
+            android:textSize="14sp"
+            android:textColor="#ADADAD"
+            android:layout_marginTop="8dp"
+            android:text="safwanidrees957@gmail.com"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"/>
+        <TextView
+            android:id="@+id/pphone"
+            android:textSize="18sp"
+            android:textColor="#F63EA5"
+            android:layout_marginTop="8dp"
+            android:text="Phone"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/paddress"
+            android:textSize="18sp"
+            android:textColor="#ADADAD"
+            android:layout_marginTop="8dp"
+            android:text="R-1370"
+            android:maxLines="2"
+            android:visibility="invisible"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/porder"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:text="Pizza"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F63EA5"/>
+    </LinearLayout>
+
+</LinearLayout>
